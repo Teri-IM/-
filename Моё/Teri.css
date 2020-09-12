@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.Teri {
+  color: #333;
+}
+
 .menu {
     grid-area: m;
     background-color: #fde886;
@@ -22,7 +26,8 @@
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer {
@@ -34,16 +39,18 @@
    /* align-items: center; */
 
 }
+
 .container {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: 100px 350px 100px;
+    grid-template-rows: 100px 400px 100px;
     grid-template-areas:
         "h h h h h h h h h h h h h h h h"
         "m m m c c c c c c c c c c c c c"
         "f f f f f f f f f f f f f f f f";
 }
+
 @media screen and (max-width: 640px) {
     .container {
         grid-template-areas:
@@ -52,26 +59,23 @@
             "f f f f f f f f f f f f f f f f";
     }
 }
+
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 .hidden {
   opacity:0;
 }
+
 .console-container {
 
   font-family:Khula;
   font-size:4em;
-
-  height:350px;
-  width:700px;
   display:block;
-  position:absolute;
   color:#4f0617;
-  top:0;
-  bottom:0;
-  left:1;
-  right:0;
-  margin:auto;
+  height: 50%;
+
+  /* background-color: #3c524a; */
 }
+
 .console-underscore {
    display:inline-block;
   position:relative;
