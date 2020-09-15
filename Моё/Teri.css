@@ -5,6 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .Teri {
@@ -44,7 +49,7 @@
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: 100px 400px 100px;
+    grid-template-rows: 75px auto 100px;
     grid-template-areas:
         "h h h h h h h h h h h h h h h h"
         "m m m c c c c c c c c c c c c c"
