@@ -93,18 +93,25 @@
     from,to {
         transform: rotateY(0deg) rotateY(0deg) rotateZ(0deg);
     }
-    25% {
+    20% {
         transform: rotateY(-90deg);
     }
-    50% {
+    40% {
         transform: rotateY(-180deg);
     }
-    75% {
+    58% {
         transform: rotateY(-270deg);
     }
-    100% {
-        transform: rotateY(-360deg);
+    76% {
+        transform: rotateZ(270deg) rotateX(-90deg);
     }
+    90%{
+        transform: rotateX(90deg);
+    }
+}
+
+.stage {
+  margin-top: 130px;
 }
 
 .cubespinner {
@@ -129,26 +136,26 @@
     color:#55BEDE;
 }
 
-.cubespinner .face1 {
+.cubespinner .face1/*1*/ {
     transform: translateZ(120px);
 }
 
-.cubespinner .face2 {
+.cubespinner .face2/*2*/ {
     transform: rotateY(90deg) translateZ(120px);
 }
 
-.cubespinner .face3 {
-    transform: rotateY(90deg) rotateX(90deg) translateZ(120px);
+.cubespinner .face3/*5*/ {
+    transform: rotateY(90deg) rotateX(90deg) rotateZ(180deg) translateZ(120px);
 }
 
-.cubespinner .face4 {
+.cubespinner .face4 /*3*/{
     transform: rotateY(180deg) translateZ(120px);
 }
 
-.cubespinner .face5 {
+.cubespinner .face5 /*4*/{
     transform: rotateY(-90deg) translateZ(120px);
 }
 
-.cubespinner .face6 {
+.cubespinner .face6/*6*/ {
     transform: rotateX(-90deg) translateZ(120px);
 }
