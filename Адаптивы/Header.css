@@ -1,0 +1,15 @@
+.container {
+  height: 10000px;
+  background-color: #ffff00;
+  padding-top: 110px;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ff0000;
+}

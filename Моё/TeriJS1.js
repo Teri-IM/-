@@ -1,4 +1,4 @@
-consoleText(['Эта интеграция пуста.', 'Но тут могла быть ваша реклама.', 'Сделать рекламу не долго.'], 'text',['tomato','rebeccapurple','lightblue']);
+consoleText(['Эта интеграция пуста.', 'Но тут могла быть ваша реклама.', 'Сделать рекламу не долго.'], 'text',['tomato','rebeccapurple','#b0071b']);
 
 function consoleText(words, id, colors) {
  if (colors === undefined) colors = ['#fff'];
