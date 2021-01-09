@@ -10,7 +10,6 @@ body {
   color: transparent;
   backface-visibility: hidden;
 }
-
 span {
   display: inline-block;
   text-shadow: 0 0 0 whitesmoke;
@@ -54,4 +53,4 @@ span:nth-child(even){
   span:nth-of-type(#{$item}){
     animation-delay: #{(3 + ($item/10))}s;
   }
-} 
+}
