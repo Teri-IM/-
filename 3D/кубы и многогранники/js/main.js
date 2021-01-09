@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2012, Script Tutorials
  * http://www.script-tutorials.com/
  */
@@ -17,6 +17,7 @@ var vShiftX = vShiftY = 0;
 var distance = -700;
 var vMouseSens = 0.05;
 var iHalfX, iHalfY;
+
 
 // initialization
 function sceneInit() {
@@ -90,7 +91,7 @@ function drawScene() {
         var max = obj.distances[obj.faces[i][0]];
         for (var f = 1; f < obj.faces[i].length; f++) {
             if (obj.distances[obj.faces[i][f]] > max)
-                max = obj.distances[obj.faces[i][f]]; 
+                max = obj.distances[obj.faces[i][f]];
         }
         aFaceTriangles[iCnt++] = {faceVertex:obj.faces[i], faceColor:obj.colors[i], distance:max};
     }
