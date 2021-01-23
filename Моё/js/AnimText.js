@@ -45,6 +45,7 @@ function consoleText(words, id, colors) {
      con.className = 'console-underscore'
 
      visible = true;
+
    }
  }, 400)
 }
